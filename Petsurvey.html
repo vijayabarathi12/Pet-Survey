@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Pet survey form</title>
+    </head>
+    <body>
+        <form method="POST" action="/survey">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="email">Breed:</label>
+            <input type="breed" name="breed" id="breed"><br><br>
+
+            <label for="petName">Pet Name:</label>
+            <input type="text" name="petName" id="petName"><br><br>
+
+            <label for="petType">Pet Type:</label>
+            <input type="text" name="petType" id="petType"><br><br>
+
+            <label for="petAge">Pet Age:</label>
+            <input type="number" name="petAge" id="petAge"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <form action="/surveys" >
+            <input type="submit" value="Total Survey">
+        </form>
+        <!-- <form action="/surveys_age" >
+            <input type="submit" value="Total Baby Pets">
+        </form> -->
+    </body>
+</html>
